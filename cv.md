@@ -1,5 +1,5 @@
 # Roman Tarasov
-![Alt text](/images/rom_avatar-v1.png)
+![Profile picture](/images/rom_avatar-v1.png)
 
 ## Contacts
 * Telegram, Discord, GitHub: **@rom4ncer**
@@ -17,7 +17,7 @@ I persistently master Frontend and Python. I dance and play tennis.
 ## Code expamles
 Codewars kata: [**Who likes it?**](https://www.codewars.com/kata/5266876b8f4bf2da9b000362/python)<br>
 Implement the function which takes an array containing the names of people that like an item.
-```
+```python
 def likes(names):
     len_of_array = len(names)
     if len_of_array == 0:
