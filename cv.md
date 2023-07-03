@@ -1,4 +1,5 @@
 # Roman Tarasov
+![Alt text](/images/rom_avatar-v1.png)
 
 ## Contacts
 * Telegram, Discord, GitHub: **@rom4ncer**
