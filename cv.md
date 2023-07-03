@@ -14,7 +14,7 @@ I persistently master Frontend and Python. I dance and play tennis.
 * Python
 
 ## Code expamles
-Codewars kata: **Who likes it?**<br>
+Codewars kata: [**Who likes it?**](https://www.codewars.com/kata/5266876b8f4bf2da9b000362/python)<br>
 Implement the function which takes an array containing the names of people that like an item.
 ```
 def likes(names):
@@ -39,7 +39,7 @@ Individual entrepreneur in the field of training and software maintenance since 
   + Financial University
 * Schools, courses
   + Stepik educational platform "Python generation": course for beginners.<br> 
-    Certificate with honors. 100% passed. https://stepik.org/cert/1086677.
+    Certificate with honors. [100% passed](https://stepik.org/cert/1086677).
   + RS School course «JavaScript/Front-end. Stage 0» (in progress...)
 
 ## Languages
