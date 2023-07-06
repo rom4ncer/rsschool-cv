@@ -15,10 +15,10 @@
 <body>
   <header class="header">
     <h1 class="visually-hidden">Curriculum Vitae</h1>
-    <div class="container">
+    <div class="_container">
       <nav class="nav">
         <ul class="nav-list">
-          <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link" id="top">contacts</a></li>
           <li class="nav-item"><a href="#about" class="nav-link">about me</a></li>
           <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
           <li class="nav-item"><a href="#code" class="nav-link">code example</a></li>
@@ -30,35 +30,92 @@
     </div>
   </header>
   <main class="main">
-    <div class="container">Roman Tarasov
-      <section class="section" id="profile">
+    <div class="container">
+      <a class="ancor" id="profile"></a>
+      <section class="section" id="_profile">
         <h2 class="section-title">Profile</h2>
+        <img src="images/avatar.png" alt="Profile photo">
+        <p>Roman Tarasov</p>
+        <p>RS School student</p>
       </section>
-      <section class="section" id="profile">
+      <a class="ancor" id="contacts"></a>
+      <section class="section" id="_contacts">
         <h2 class="section-title">Contacts</h2>
+        <p>Telegram, Discord, GitHub: <b>@rom4ncer</b></p>
+        <p>E-mail: <b>rom4ncer@gmail.com</b></p>
       </section>
-      <section class="section" id="profile">
+      <a class="ancor" id="about"></a>
+      <section class="section" id="_about">
         <h2 class="section-title">About me</h2>
+        <p>I persistently master Frontend and Python. I dance and play tennis.</p>
       </section>
-      <section class="section" id="profile">
+      <a class="ancor" id="skills"></a>
+      <section class="section" id="_skills">
         <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>Python</li>
+        </ul>
       </section>
-      <section class="section" id="profile">
+      <a class="ancor" id="code"></a>
+      <section class="section" id="_code">
         <h2 class="section-title">Code expamles</h2>
+        <p>Codewars kata:
+          <a href="https://www.codewars.com/kata/5266876b8f4bf2da9b000362/python" target="_blank">Who likes it?</a><br>
+          Implement the function which takes an array containing the names of people that like an item.
+        </p>
+        <pre><code>        
+        def likes(names):
+            len_of_array = len(names)
+            if len_of_array == 0:
+                return "no one likes this"
+            elif len_of_array == 1:
+                return f"{names[0]} likes this"
+            elif len_of_array == 2:
+                return f"{names[0]} and {names[1]} like this"
+            elif len_of_array == 3:
+                return f"{names[0]}, {names[1]} and {names[2]} like this"
+            else:
+                return f"{names[0]}, {names[1]} and {len_of_array - 2} others like this"        
+        </code></pre>
       </section>
-      <section class="section" id="profile">
+      <a class="ancor" id="work"></a>
+      <section class="section" id="_work">
         <h2 class="section-title">Work experience</h2>
+        <p>Individual entrepreneur in the field of training and software maintenance since 2017.</p>
       </section>
-      <section class="section" id="profile">
+      <a class="ancor" id="education"></a>
+      <section class="section" id="_education">
         <h2 class="section-title">Education</h2>
+        <ul>
+          <li>Higher education: </li>
+          <ul>
+            <li>Financial University</li>
+          </ul>
+          <li>Schools, courses:</li>
+          <ul>
+            <li>
+              Stepik educational platform "Python generation": course for beginners.<br>
+              Certificate with honors. <a href="https://stepik.org/cert/1086677" target="_blank">100% passed</a>.
+            </li>
+            <li>RS School course «JavaScript/Front-end. Stage 0» (in progress...)</li>
+          </ul>
+        </ul>
       </section>
-      <section class="section" id="profile">
-        <h2 class="section-title">Languages<small>[Section-8]</small></h2>
+      <a class="ancor" id="languages"></a>
+      <section class="section" id="_languages">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+          <li>Russian: native speaker</li>
+          <li>English: B2</li>
+        </ul>
       </section>
     </div>
   </main>
   <footer class="footer">
-    <div class="container">Footer
+    <div class="_container">Footer
     </div>
   </footer>
 </body>
