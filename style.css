@@ -20,10 +20,6 @@ h2 {
   padding-left: 10px;
   margin-left: 20px;
   margin-right: 20px;
-  /* background-color: aquamarine; */
-  /* box-shadow: 10px 10px 20px rgba(127, 255, 212, 0.8) */
-  /* box-shadow: rgba(127, 255, 212, 0.35) 0px -50px 36px -28px inset; */
-  /* box-shadow: rgb(38, 57, 77) 12px 12px 0px -4px; */
   box-shadow: inset 0px -0.7em 0px 0px rgba(232, 125, 232, 0.25);
 }
 
@@ -99,7 +95,6 @@ code {
 }
 
 .ancor {
-  /* display: block; */
   position: relative;
   top: -60px;
 }
