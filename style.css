@@ -1,5 +1,5 @@
-*{
-  box-sizing: border-box;  
+* {
+  box-sizing: border-box;
 }
 
 html {
@@ -16,65 +16,82 @@ body {
   justify-content: space-between;
 }
 
-.container{
-  max-width: 1024px;
-  margin: 60px auto;
-  /* border: 2px solid steelblue;  */
+h2 {
+  padding-left: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* background-color: aquamarine; */
+  /* box-shadow: 10px 10px 20px rgba(127, 255, 212, 0.8) */
+  /* box-shadow: rgba(127, 255, 212, 0.35) 0px -50px 36px -28px inset; */
+  /* box-shadow: rgb(38, 57, 77) 12px 12px 0px -4px; */
+  box-shadow: inset 0px -0.7em 0px 0px rgba(232, 125, 232, 0.25);
 }
 
-.nav-list {  
-  display: flex;  
-  gap: 10px;
-  /* justify-content: center; */
-  /* justify-content: space-evenly; */
+p,
+.avatar {
+  margin-left: 20px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 60px auto;
+}
+
+.container-header {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.container-footer {
+  max-width: 1024px;
+  width: 100%;
+  display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
   list-style: none;
 }
 
 a.nav-link {
-  /* padding: 0 10px; */
   display: block;
   position: relative;
-  /* top: 150px; */
-
-  /* line-height: 50px; */
   transition: .3s;
 }
 
 .header {
   background-color: white;
-  /* opacity: 90%; */
-  position: fixed; 
+  position: fixed;
   top: 0;
   z-index: 100;
-  width: 100%;  
-}
-.header, .main, .footer {
-  /* margin: 5px; */
-  /* padding: 5px; */
-  /* height: 50px; */
-  /* border: 2px solid pink;  */
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2), 0 6px 6px rgba(0,0,0,0.25);
+  width: 100%;
 }
 
-.visually-hidden{
-  text-align: center;
-  color: lightgray;
+.header,
+.main,
+.footer {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.visually-hidden {
   display: none;
 }
 
 .section {
-  border: 1px dotted violet; 
+  border: 1px dotted violet;
   border-radius: 20px;
   margin: 5px;
   padding: 10px;
 }
 
-code { 
-  display: block; 
-  background-color: hsla(300, 70%, 70%, 0.1);
+code {
+  display: block;
+  background-color: rgba(232, 125, 232, 0.1);
   margin: 20px;
   color: cornflowerblue;
   font-weight: 400;
@@ -87,16 +104,13 @@ code {
   top: -60px;
 }
 
-.footer {  
+.footer {
   display: flex;
-  /* justify-content: space-around; */
-  justify-content: space-evenly;
+  justify-content: center;
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 56px;
-  align-items: center;  
   background-color: white;
-  /* opacity: 90%; */
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
