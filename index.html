@@ -4,11 +4,142 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CV</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
 </head>
 
 <body>
+  <header class="header">
+    <!-- Визуально скрытый подходящий по смыслу заголовок -->
+    <h1 class="visually-hidden">Curriculum Vitae</h1>
 
+    <div class="container-header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link" id="top">contacts</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">about me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">code example</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">work experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <a class="ancor" id="profile"></a>
+      <section class="section">
+        <h2 class="section-title">Roman Tarasov</h2>
+        <img class="avatar" src="images/avatar.png" alt="Profile photo">
+        <p>RS School student</p>
+      </section>
+      <a class="ancor" id="contacts"></a>
+      <section class="section">
+        <h2 class="section-title">Contacts</h2>
+        <ul>
+          <li>Telegram, Discord, GitHub: <b>@rom4ncer</b></li>
+          <li>E-mail: <b>rom4ncer@gmail.com</b></li>
+          <li>Phone: <b>+7 (926) 101-95-90</b></li>
+        </ul>
+      </section>
+      <a class="ancor" id="about"></a>
+      <section class="section">
+        <h2 class="section-title">About me</h2>
+        <p>I persistently master Frontend and Python. I dance and play tennis.</p>
+      </section>
+      <a class="ancor" id="skills"></a>
+      <section class="section">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>Python</li>
+        </ul>
+      </section>
+      <a class="ancor" id="code"></a>
+      <section class="section">
+        <h2 class="section-title">Code expamles</h2>
+        <p>Codewars kata:
+          <a href="https://www.codewars.com/kata/5266876b8f4bf2da9b000362/python" target="_blank">Who likes it?</a><br>
+          Implement the function which takes an array containing the names of people that like an item.
+        </p>
+        <pre><code>        
+        def likes(names):
+            len_of_array = len(names)
+            if len_of_array == 0:
+                return "no one likes this"
+            elif len_of_array == 1:
+                return f"{names[0]} likes this"
+            elif len_of_array == 2:
+                return f"{names[0]} and {names[1]} like this"
+            elif len_of_array == 3:
+                return f"{names[0]}, {names[1]} and {names[2]} like this"
+            else:
+                return f"{names[0]}, {names[1]} and {len_of_array - 2} others like this"        
+        </code></pre>
+      </section>
+      <a class="ancor" id="projects"></a>
+      <section class="section">
+        <h2 class="section-title">Projects</h2>
+        <ul>
+          <li><a href="https://rom4ncer.github.io/rsschool-cv/" target="_blank">RS School CV</a></li>
+        </ul>
+      </section>
+      <a class="ancor" id="work"></a>
+      <section class="section">
+        <h2 class="section-title">Work experience</h2>
+        <p>Individual entrepreneur in the field of training and software maintenance since 2017.</p>
+      </section>
+      <a class="ancor" id="education"></a>
+      <section class="section">
+        <h2 class="section-title">Education</h2>
+        <ul>
+          <li>Higher education:
+            <ul>
+              <li>Financial University</li>
+            </ul>
+          </li>
+          <li>Schools, courses:
+            <ul>
+              <li>
+                Stepik educational platform "Python generation": course for beginners.<br>
+                Certificate with honors. <a href="https://stepik.org/cert/1086677" target="_blank">100% passed</a>.
+              </li>
+              <li>RS School course «JavaScript/Front-end. Stage 0» (in progress...)</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <a class="ancor" id="languages"></a>
+      <section class="section">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+          <li>Russian: native speaker</li>
+          <li>English: B2</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container-footer">
+      <a href="https://github.com/rom4ncer">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+          alt="GitHub logo" height="45">
+      </a>
+      <span>&copy; Created by <a href="#profile">Roman Tarasov</a> in 2023</span>
+      <a href="https://rs.school/js/" target="_blank">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="RS School logo" height="45">
+      </a>
+    </div>
+  </footer>
 </body>
 
 </html>
