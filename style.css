@@ -86,7 +86,8 @@ a.nav-link {
 }
 
 .visually-hidden {
-  display: none;
+  position: fixed;
+  transform: scale(0);
 }
 
 .section {
